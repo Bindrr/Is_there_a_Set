@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:padding="24dp"
+    tools:context=".activities.CardsInputActivity">
+
+    <TextView
+        android:id="@+id/current_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="@string/current_card"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/variant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/choices_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="@string/variant"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current_card" />
+
+    <RelativeLayout
+        android:id="@+id/choices_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toTopOf="@+id/back_button"
+        app:layout_constraintTop_toBottomOf="@+id/variant">
+
+        <Button
+            android:id="@+id/first_answer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/white_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/montserrat_alternates_medium"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/variant_button"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/second_answer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first_answer_button"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/white_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/montserrat_alternates_medium"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/variant_button"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/third_answer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_answer_button"
+            android:background="@drawable/white_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/montserrat_alternates_medium"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/variant_button"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="205dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/choices_layout"
+        android:layout_alignBottom="@+id/choices_layout"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="@string/back_button"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/restart_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="205dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/choices_layout"
+        android:layout_alignBottom="@+id/choices_layout"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="@string/restart_button"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

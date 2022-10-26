@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Видишь Сет?</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Первый Фрагмент</string>
+    <string name="second_fragment_label">Второй Фрагмент</string>
+    <string name="next">Следующий</string>
+    <string name="previous">Предыдущий</string>
+
+    //activity_main
+    <string name="play_button">Начать</string>
+    <string name="settings_button">Настройки</string>
+    <string name="privacy_policy_button">Политика конфиденциальности</string>
+
+    //activity_input_cards
+    <string name="current_card">"Текущая карта: "</string>
+    <string name="variant">Вопрос</string>
+    <string name="variant_button">Вариант</string>
+    <string name="restart_button">Заново</string>
+    <string name="back_button">Назад</string>
+
+    //activity_found_sets
+    <string name="sets_found">НАЙДЕНО СЕТОВ:</string>
+    <string name="list_of_Sets">Лист из Сетов</string>
+
+    <string name="amount">Количество</string>
+    <string name="color">Цвет</string>
+    <string name="shape">Фигура</string>
+    <string name="shading">Закраска</string>
+
+    <string name="color.red">красный</string>
+    <string name="color.green">зелёный</string>
+    <string name="color.purple">фиолетовый</string>
+
+    <string name="shape.curved">змейка</string>
+    <string name="shape.romb">ромб</string>
+    <string name="shape.oval">овал</string>
+
+    <string name="shading.non">пустая</string>
+    <string name="shading.half">решётка</string>
+    <string name="shading.full">полная</string>
+
+
+    //Alerts
+    <string name="reveal_button">Показать</string>
+
+    <string name="non_sets_found">"Сетов не найдено"</string>
+    <string name="non_sets_found_desc">"В ваших картах нет ни одного Сета"</string>
+
+    <string name="one_set_found">"Сетов найдено: 1"</string>
+    <string name="one_set_found_desc">"Показать его?"</string>
+
+    <string name="many_set_found">"Сетов найдено: "</string>
+    <string name="many_set_found_desc">"Показать их?"</string>
+
+    <string name="duplicate_card">"Дублированная карта"</string>
+    <string name="duplicate_card_desc">"Вы уже вводили эту карту. В игре нет дубликатов"</string>
+    <string name="set_item">Сет</string>
+</resources>

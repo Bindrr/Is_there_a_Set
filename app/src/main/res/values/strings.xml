@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Is there a Set?</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    //activity_main
+    <string name="play_button">Play</string>
+    <string name="settings_button">settings</string>
+    <string name="privacy_policy_button">Privacy policy</string>
+
+    //activity_input_cards
+    <string name="current_card">"Current card: "</string>
+    <string name="variant">Question</string>
+    <string name="variant_button">Variant</string>
+    <string name="back_button">Back</string>
+    <string name="restart_button">Restart</string>
+
+    //activity_found_sets
+    <string name="sets_found">TOTAL SETS FOUND:</string>
+    <string name="list_of_Sets">list_of_Sets</string>
+    <string name="set_item">Set value</string>
+
+    <string name="amount">Amount</string>
+    <string name="color">Color</string>
+    <string name="shape">Shape</string>
+    <string name="shading">Shading</string>
+
+    <string name="amount.1" translatable="false">1</string>
+    <string name="amount.2" translatable="false">2</string>
+    <string name="amount.3" translatable="false">3</string>
+
+    <string name="color.red">red</string>
+    <string name="color.green">green</string>
+    <string name="color.purple">purple</string>
+
+    <string name="shape.curved">curved</string>
+    <string name="shape.romb">romb</string>
+    <string name="shape.oval">oval</string>
+
+    <string name="shading.non">non</string>
+    <string name="shading.half">half</string>
+    <string name="shading.full">full</string>
+
+
+    //Alerts
+    <string name="reveal_button">Reveal</string>
+
+    <string name="non_sets_found">"Non Sets were found"</string>
+    <string name="non_sets_found_desc">"In your case, where are no SETs at all."</string>
+
+    <string name="one_set_found">"Sets found: 1"</string>
+    <string name="one_set_found_desc">"Want to reveal it?"</string>
+
+    <string name="many_set_found">" Sets found: "</string>
+    <string name="many_set_found_desc">"Want to reveal them?"</string>
+
+    <string name="duplicate_card">"Duplicated cardModel"</string>
+    <string name="duplicate_card_desc">"You've already entered this cardModel before. Where are no duplicate cardModels in SET"</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pop_up_icon">pop-up icon</string>
+    <string name="settings_activity">Settings Activity</string>
+</resources>
